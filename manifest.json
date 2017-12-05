@@ -13,14 +13,8 @@
      "scripts": ["background.js"]
   },
   "permissions": [
-    "activeTab",
-    "storage"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["myscript.js"]
-    }
+    "contextMenus"
   ]
 
 }
+
